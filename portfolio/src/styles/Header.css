@@ -1,0 +1,20 @@
+/* /src/styles/Header.css */
+
+.App-header {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  padding: 50px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+}

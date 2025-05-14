@@ -1,0 +1,47 @@
+/* /src/styles/AboutMe.css */
+
+.about-section {
+  margin: 40px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #282c34;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .about-section p {
+    font-size: 1rem;
+  }
+}
